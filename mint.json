@@ -38,14 +38,14 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "入門指南",
       "pages": [
         "aboutspidercard",
         "accountsetup"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "核心功能",
       "pages": [
         "essentials/set2fa",
         "essentials/sendreferralurl",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "group": "Ecosystem",
+      "group": "卡片與整合",
       "pages": [
         "essentials/applyphysicalcard",
         "essentials/addtohomescreen"

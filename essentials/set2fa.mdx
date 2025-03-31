@@ -3,16 +3,34 @@ title: '設定 2FA 安全碼'
 description: '如何在 SpiderCard 應用中設定兩步驗證 (2FA)。'
 ---
 
+<Info>
+兩步驗證 (Two-Factor Authentication, 2FA) 是保護您 SpiderCard 賬戶安全的重要措施。啟用 2FA 後，除了密碼外，您還需要輸入來自驗證器應用程式（如 Google Authenticator）的動態驗證碼才能登錄或執行敏感操作，大大提高了賬戶的安全性。強烈建議所有用戶啟用 2FA。
+</Info>
+
+## 導航至 2FA 設定
+
 ![設定 2FA 安全碼指南1](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FmmWyg0BIICKMY0N9u1DE%252F375.png%3Falt%3Dmedia%26token%3Dfe48bb54-62a2-461f-83d3-56ec2cce0628&width=768&dpr=4&quality=100&sign=7328035&sv=2)
 ![設定 2FA 安全碼指南2](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FFBl3JaSTcV7IdR039eaN%252F376.png%3Falt%3Dmedia%26token%3D8431119d-d243-41b2-a992-3b054101a7e9&width=768&dpr=4&quality=100&sign=11137b5f&sv=2)
 
 1.  🔧 打開 SpiderCard 應用，點擊右上角的設置圖標。
-2.  🔒 進入設置頁面，點擊**"二步驗證"**(2FA)選項。
+2.  🔒 進入設置頁面後，找到並點擊**"二步驗證"**(2FA) 選項。
+
+## 獲取並備份密鑰
 
 ![設定 2FA 安全碼指南3](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252Fn68i8Mi9c2ljQ1sj1Ja7%252F377.png%3Falt%3Dmedia%26token%3D7630db9b-9a5c-45c6-9646-469319a114c0&width=768&dpr=4&quality=100&sign=bddfb6db&sv=2)
 ![設定 2FA 安全碼指南4](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252Farn5YbUoakZ4dNgYtavT%252F378.png%3Falt%3Dmedia%26token%3Da3e575e3-d857-4921-9068-ee951775e11c&width=768&dpr=4&quality=100&sign=6032c144&sv=2)
 
-3.  📋 在顯示二維碼的頁面，長按代碼並點擊**"複製"**。
+3.  📋 系統會顯示一個用於設定 2FA 的**密鑰**（通常以二維碼和文本形式提供）。請長按文本密鑰並點擊**"複製"**。
+
+<Warning>
+**極其重要：請務必在安全的地方備份此密鑰！**
+*   這個密鑰是恢復您的 2FA 訪問權限的唯一方式，以防您丟失或更換手機。
+*   建議將密鑰手寫下來並存放在安全的地方，或者使用安全的密碼管理器保存。
+*   **切勿**將密鑰以截圖或普通文本文件的形式存儲在聯網設備上。
+*   如果沒有備份密鑰，一旦無法訪問驗證器應用，您可能會永久失去對 SpiderCard 賬戶的訪問權限！
+</Warning>
+
+## 在驗證器應用中添加賬戶
 
 ![設定 2FA 安全碼指南5](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FlZNPTjPudmXDDH04YuOB%252F379.png%3Falt%3Dmedia%26token%3D58ec6d27-d238-434a-bed5-05742923a448&width=768&dpr=4&quality=100&sign=aa5ac331&sv=2)
 ![設定 2FA 安全碼指南6](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252Fa37qVPuAUbTcTln5GNKe%252F380.png%3Falt%3Dmedia%26token%3Dea29b399-56e7-480d-b84f-7a230be5fd79&width=768&dpr=4&quality=100&sign=eb407c12&sv=2)
@@ -20,24 +38,25 @@ description: '如何在 SpiderCard 應用中設定兩步驗證 (2FA)。'
 4.  📱 打開 Google Authenticator 應用或任何身份驗證器APP，點擊**"添加代碼"**。
     📝 輸入帳戶資料:
     帳戶名稱：Spidercard
-    將複製的密鑰粘貼到"密鑰"欄中。
+    將您剛剛從 SpiderCard 應用複製的密鑰粘貼到"密鑰"欄中。
 
 ![設定 2FA 安全碼指南7](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FKfoEBnutyzvbmSLc87X0%252F381.png%3Falt%3Dmedia%26token%3Df4eebb89-1f2a-4f23-ad82-528aa5da1b06&width=768&dpr=4&quality=100&sign=b36dc19f&sv=2)
 ![設定 2FA 安全碼指南8](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FPyiEVV0KDXMMmccV2Xwr%252F382.png%3Falt%3Dmedia%26token%3Df70efd97-b679-4ba6-9325-430f08747521&width=768&dpr=4&quality=100&sign=7cabd4e9&sv=2)
 
-5.  🔢 生成驗證碼
-    Google Authenticator 會生成一個6位數的驗證碼（例如：100 075）。
+5.  🔢 **生成驗證碼**: 添加成功後，您的驗證器應用會開始為 SpiderCard 賬戶生成一個每隔幾十秒變化的 6 位數驗證碼（例如：100 075）。
+
+## 在 SpiderCard 應用中驗證並啟用
 
 ![設定 2FA 安全碼指南9](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FV7lWclfsOIWG77LtM2cu%252F383.png%3Falt%3Dmedia%26token%3De01aed6e-7689-4406-a9e7-479b6bfb35ae&width=768&dpr=4&quality=100&sign=b51eadf&sv=2)
 ![設定 2FA 安全碼指南10](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252Fe7UvbYAj6kpzBHQOjy2I%252F384.png%3Falt%3Dmedia%26token%3D9fe9134a-d36d-4837-b2bd-1754e5ae53a4&width=768&dpr=4&quality=100&sign=ad6caa97&sv=2)
 
 6.  📝 返回 Spider 應用:
     返回 Spider 應用，使用**"粘貼"或"自動填充"**選項，輸入驗證密鑰，然後輸入 Google Authenticator 生成的6位數驗證碼。
-7.  🟢 啟用 2FA
-    點擊**"啟用 2FA"**按鈕，成功啟用後界面底部會顯示"已啟用 2FA"的綠色標識。
+7.  🟢 **啟用 2FA**: 點擊**"啟用 2FA"**按鈕。如果驗證碼正確，系統將成功啟用兩步驗證。成功啟用後，界面底部通常會顯示"已啟用 2FA"的綠色標識或類似提示。
 
 ![設定 2FA 安全碼指南11](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FxqN0XeMgnc0M6cZwKVSM%252F385.png%3Falt%3Dmedia%26token%3Dc969c0c2-2ea3-42db-93ad-3242e2f57a56&width=768&dpr=4&quality=100&sign=9df00d8b&sv=2)
 ![設定 2FA 安全碼指南12](https://milways.gitbook.io/~gitbook/image?url=https%3A%2F%2F576526375-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWk98YWM2MHtAzSHwvK6L%252Fuploads%252FsTQOd4ZZ2UpIqng9RTap%252F386.png%3Falt%3Dmedia%26token%3Df72e5791-ff27-4d5a-ba92-527a6a4150dc&width=400&dpr=3&quality=100&sign=13d38747&sv=2)
 
-8.  📧 確認郵件
-    您將收到 SpiderCard 發送的確認郵件。
+8.  📧 **確認郵件**: 您通常會收到一封來自 SpiderCard 的電子郵件，確認您的賬戶已成功啟用 2FA。
+
+恭喜！您已成功為您的 SpiderCard 賬戶添加了額外的安全保護層。請務必妥善保管您的備份密鑰。
