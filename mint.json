@@ -1,0 +1,75 @@
+{
+  "name": "MilPay",
+  "logo": {
+    "light": "https://milpay.s3.ap-southeast-1.amazonaws.com/mp.svg",
+    "dark": "https://milpay.s3.ap-southeast-1.amazonaws.com/mp.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0ABAB5",
+    "light": "#81D8D0",
+    "dark": "#0ABAB5",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#000000"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@milpay.finance"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://milpay.finance"
+  },
+  "anchors": [
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://t.me/MilPayGlobal"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/milpay"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "about-spidercard",
+        "account-setup-guide"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/set-2fa-guide",
+        "essentials/send-referral-url-guide",
+        "essentials/top-up-credit-card-guide",
+        "essentials/add-to-google-wallet-guide",
+        "essentials/deposit-to-wallet-guide",
+        "essentials/set-pin-guide",
+        "essentials/wallet-transfer-guide"
+      ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": [
+        "essentials/apply-physical-card-guide",
+        "essentials/add-to-homescreen-guide"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/MilPayOfficial",
+    "telegram": "https://t.me/MilPayGlobal",
+    "github": "https://github.com/milpay"
+  },
+  "seo": {
+    "indexHiddenPages": true
+  }
+}

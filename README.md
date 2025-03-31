@@ -1,32 +1,64 @@
-# Mintlify Starter Kit
+# MilPay Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This repository contains the official documentation for MilPay, an innovative financial payment platform bridging crypto and fiat currencies.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## Overview
 
-### Development
+MilPay offers:
+- HKD card support (expanding to USD, EUR)
+- 0% top-up fees
+- 100% profit distribution to Raydium every 7 days
+- Free card application for $500+ $MPC holders
+- Nine-level referral system
+- Six-tier holding benefits
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## Documentation Structure
 
+- `/introduction.mdx` - Platform overview
+- `/essentials/` - Core concepts and features
+- `/api-reference/` - API documentation
+- `/images/` - Documentation assets
+- `/snippets/` - Code examples
+
+## Local Development
+
+1. Install dependencies:
+```bash
+npm install
 ```
-npm i -g mintlify
+
+2. Start development server:
+```bash
+npm run dev
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+3. Visit `http://localhost:3000`
 
-```
-mintlify dev
-```
+## Contributing
 
-### Publishing Changes
+1. Fork the repository
+2. Create your feature branch
+3. Make your changes
+4. Submit a pull request
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+## Documentation Updates
 
-#### Troubleshooting
+The documentation covers:
+- Platform overview
+- Token economics
+- Fee structure
+- Community features
+- Developer guides
+- API reference
+- Integration examples
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+## Contact
+
+- Website: [milpay.finance](https://milpay.finance)
+- Email: support@milpay.finance
+- Telegram: @MilPayGlobal
+- Twitter: @MilPayOfficial
+
+## License
+
+This documentation is licensed under the MIT License. See LICENSE file for details.
