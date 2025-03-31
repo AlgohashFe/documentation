@@ -40,27 +40,27 @@
     {
       "group": "Getting Started",
       "pages": [
-        "about-spidercard",
-        "account-setup-guide"
+        "aboutspidercard",
+        "accountsetup"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/set-2fa-guide",
-        "essentials/send-referral-url-guide",
-        "essentials/top-up-credit-card-guide",
-        "essentials/add-to-google-wallet-guide",
-        "essentials/deposit-to-wallet-guide",
-        "essentials/set-pin-guide",
-        "essentials/wallet-transfer-guide"
+        "essentials/set2fa",
+        "essentials/sendreferralurl",
+        "essentials/topupcreditcard",
+        "essentials/addtogooglewallet",
+        "essentials/deposittowallet",
+        "essentials/setpin",
+        "essentials/wallettransfer"
       ]
     },
     {
       "group": "Ecosystem",
       "pages": [
-        "essentials/apply-physical-card-guide",
-        "essentials/add-to-homescreen-guide"
+        "essentials/applyphysicalcard",
+        "essentials/addtohomescreen"
       ]
     }
   ],
