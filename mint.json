@@ -48,12 +48,12 @@
       "group": "Core Functions",
       "pages": [
         "essentials/set2fa",
-        "essentials/sendreferralurl",
+        "essentials/setpin",
+        "essentials/deposittowallet",
         "essentials/topupcreditcard",
         "essentials/addtogooglewallet",
-        "essentials/deposittowallet",
-        "essentials/setpin",
-        "essentials/wallettransfer"
+        "essentials/wallettransfer",
+        "essentials/sendreferralurl"
       ]
     },
     {
